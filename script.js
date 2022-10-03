@@ -107,7 +107,7 @@
 //let ninjas = ['shaun', 'ryu', 'chun-li'];
 // ninjas[1] = 'ken';
 
-// // console.log(ninjas);
+// console.log(ninjas);
 // console.log(ninjas[1]);
 
 // let ages = [20,25,30,35]
@@ -128,6 +128,56 @@
 //console.log(age, age + 3, `the age is ${age}`);
 
 //booleans & comparisons
-console.log(true, false)
+//console.log(true, false, "true", "false");
 
 //methods can return booleans
+//let email = 'luigi@thenetninja.co.uk';
+//let names = ['mario', 'luigi', 'toad'];
+
+//let result = email.includes('!');
+//let result = names.includes('luigi');
+
+//console.log(result);
+
+//comparison operators
+
+//let age = 25;
+
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age > 20);
+// console.log(age < 20);
+// console.log(age <= 25);
+// console.log(age <= 25);
+// console.log(age >= 25);
+
+//let name = 'shaun';
+
+// console.log(name == 'shaun');
+// console.log(name == 'Shaun');
+// console.log(name > 'crystal');
+// console.log(name > 'Shaun');
+// console.log(name > 'Crystal');
+
+let age = 25;
+
+// loose comparison (different types can still be qequal)
+
+// console.log(age == 25);
+// console.log(age == '25');
+// console.log(age != 25);
+// console.log(age != '25');
+
+//strict comparison (diffrent types cannot be equal)
+
+// console.log(age === 25);
+// console.log(age === '25')
+// console.log(age !== 25);
+// console.log(age !== '25')
+
+//type conversion
+let score = '100';
+
+score = Number(score)
+console.log(score + 1);
