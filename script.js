@@ -1,4 +1,4 @@
-// let age= 25;
+ // let age= 25;
 // let year = 2019;
 
 // console.log(age, year);
@@ -160,7 +160,7 @@
 // console.log(name > 'Shaun');
 // console.log(name > 'Crystal');
 
-let age = 25;
+//let age = 25;
 
 // loose comparison (different types can still be qequal)
 
@@ -177,7 +177,17 @@ let age = 25;
 // console.log(age !== '25')
 
 //type conversion
-let score = '100';
+//let score = '100';
 
-score = Number(score)
-console.log(score + 1);
+//score = Number(score);
+//console.log(score + 1);
+//console.log(typeof score);
+
+//let result = Number('hello');
+//let result = String(50);
+//let result = Boolean(100);
+//let result = Boolean('0');
+//let result = Boolean('');
+
+//console.log(result, typeof result);
+
