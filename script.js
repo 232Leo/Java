@@ -314,11 +314,121 @@
 // }
 
 
-// variables & black scope
+// variables & block scope
+// let age = 30;
 
-if(true){
+
+// if(true){
+//   let age = 40;
+//   let name = 'shaun';
+//   console.log('inside 1st code block: ', age, name);
+
+//   if(true){
+//     const age = 50;
+//     console.log('inside 2nd code block: ', age)
+//   }
   
-}
+// }
+
+// console.log('outside code block: ', age, name);
+
+
+// function declaration
+// function greet(){
+//   console.log('hello there');
+// }
+
+// function epression
+// const speak = function(){
+//   console.log('good day');
+// };
+
+// greet();
+//greet();
+
+//speak();
+
+// function declaration
+// function greet(){
+//   console.log('hello there');
+// }
+
+//arguments & parameters
+
+// const speak = function(name, time){
+//   console.log(`good ${time} ${name}`);
+// };
+
+// speak('mario', 'morning');
+
+// const calcArea = function(radius){
+//   return = 3.14 * radius**2;
+// }
+
+// const area = clacArea(5); 
+// console.log(area);
+
+
+// regular function
+// const calcArea = function(radius){
+//   return 3.14 * radius**2;
+// }
+
+// //arrow function
+// const calcArea = radius => 1.14 * radius**2;
+
+
+// const area = calcArea(5);
+// console.log('area is', area);
+
+//practise arrow functions
+
+// const greet = function(){
+//   return 'hello, world';
+// }
+
+// const greet = function() => 'hello, world';
+// const result = greet();
+
+
+// const bill = function(products, tax){
+//   let total = 0;
+//   for(let 1= 0; i < products.length; 1++){
+//     total += productts[1] + products[i] * tax;
+//   }
+//   return total;
+// }
+
+// const bill = (products, tax) => {
+//   let total = 0;
+//   for(let 1= 0; i < products.length; 1++){
+//     total += products[1] + products[i] * tax;
+// }
+//   return total;
+// };
+// console.log(bill[10,15,30], 0.2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
