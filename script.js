@@ -409,29 +409,145 @@
 // console.log(bill[10,15,30], 0.2);
 
 
+// const name = 'shaun' ;
+
+// //function
+
+// const greet = () => 'hello';
+
+// let resultOne = greet();
+// console.log(resultOne);
+
+// //methods
+// let resultTow = name.toUpperCase();
+// console.log(resultTwo);
+
+
+// callbakc & foreach 
+
+// const myFunc = (callbackFunc) => {
+//   // do something
+//   let value = 50;
+//   callbackFunc(value);
+// };
+
+// myfunc(value =>{
+//   //do something
+//   console.log(value);
+// });
+
+
+// let people = ['mario','luigi','ryu','shaun','chun-li',]
+
+// const logPerson = (person, index) => {
+//   console.log(`${index} - hello ${person}`);
+// };
+
+// people.forEach((person => {
+//   console.log(index, person);
+// });
+
+
+//get reference to the 'ul'
+// const ul = document.querySelector('.ppeople');
+
+// cont people = ['mario','luigi', 'ryu', 'shaun', 'chun-li'];
+
+// let html = ``;
+
+// people.forEach(person => {
+//   // creat html template
+//   html += <li style="color: purple">${person}</li>
+
+//   console.log(html);
+//   ul.innerHTML = html;
+// })
+
+
+// object literals
+
+// let user = {
+//   name: 'crystal',
+//   age:30,
+//   email: 'ol3oo4123@gmail.co.uk',
+//   location: 'nj',
+//   blogs: ['why, mac & chees rules', '10 things to do']
+// };
+
+// console.log(user);
+// console.log(user.name);
+
+// user.age = 35;
+// console.log(user.age)
+
+// console.log(user['loaction']);
+// user['name'] = 'chuni-li';
+// console.log(user['name']);
+
+//console.log(typeof user);
+
+
+//object literals
+
+// const blogs = [
+//   { title: 'why mac & cheese rules', likes: 30},
+//   { title:'10 things to make with marnite', likes: 50 }
+// ];
+
+//console.log(blogs);
+
+// let user = {
+//   name: 'crystal',
+//   age: 30,
+//   email: 'crystal@thenetninja.co.uk',
+//   location: 'berlin',
+//   blogs: [
+//     { title: 'why mac & cheese rules', likes: 30},
+//   { title:'10 things to make with marnite', likes: 50 }
+//   ],
+//   login:function(){
+//     console.log('the user logged in');
+//   },
+//   logout: function(){
+//     console.log('the user logged out');
+//   },
+//   logBlogs: function(){
+//     console.log(this.blogs);
+//     console.log('this user has written the following blogs:');
+//     this.blogs.forEach(blog => {
+//       console.log(blog.title, blog.likes);
+//     });
+//   }
+// };
+
+// user.logBlogs();
+// console.log(this);
 
 
 
+// Math object 
+
+// console.log(Math);
+// console.log(Math.PI);
+// console.log(Math.E);
+
+// const area = 7.7;
+
+// console.log(Math.round(area));
+// console.log(Math.floor(area));
+// console.log(Math.ceil(area));
+// console.log(Math.trunc(area));
+
+// random number
+
+// const random = Math.random();
+
+// console.log(random);
+// console.log(Math.round(random * 100));
+
+
+// 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
